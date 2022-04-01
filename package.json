@@ -1,0 +1,31 @@
+{
+  "name": "runeterra",
+  "version": "1.0.0",
+  "description": "Generate some statistics on personal online matches in Riot's Legends of Runeterra",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "config": "cp configSample.js config.js",
+    "fetch": "node .",
+    "cleanup": "node ./cleanup.js",
+    "stats": "node ./stats.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johanfive/runeterra.git"
+  },
+  "keywords": [
+    "Riot",
+    "Runeterra",
+    "gaming"
+  ],
+  "author": "johanFive",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johanfive/runeterra/issues"
+  },
+  "homepage": "https://github.com/johanfive/runeterra#readme",
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
+}
